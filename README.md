@@ -119,14 +119,17 @@ PugBlocker - a plugin for Minecraft designed to manage player rights via LuckPer
 
 ## Config.yml
 ```
+# Whether permissions should apply to operators (ops) on the server.
 applyToOps: true
 
+# Custom messages used in the plugin.
 messages:
   noPermission: "You do not have permission to execute this command."
   configReloaded: "PugBlocker config reloaded!"
 
   chatNoPermission: "You do not have permission to chat."
 ```
+
 
 ## Author
 * Mops_Lops
