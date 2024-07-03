@@ -139,4 +139,4 @@ messages:
 * Discord: [Гвукамоле](https://discord.com/invite/PRvBJRt)
  
 ## License
-This app is under the [MIT license]()
+This app is under the [MIT license](https://github.com/MopsLops/PugBlocker/blob/main/LICENSE)
