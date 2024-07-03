@@ -5,7 +5,7 @@ PugBlocker - a plugin for Minecraft designed to manage player rights via LuckPer
 ![image](https://i.imgur.com/b2rhJXH.png,"screenshot")
 
 ## How to use
-1. [Download Releases]()
+1. [Download Releases](https://github.com/MopsLops/PugBlocker/releases)
 2. [Download Luckperms](https://luckperms.net/download)
 3. Place PugBlocker.jar and Luckperms.jar in your server plugins folder
 4. Run the Server on version 1.21 or higher
