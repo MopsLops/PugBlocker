@@ -16,7 +16,7 @@ PugBlocker - a plugin for Minecraft designed to manage player rights via LuckPer
 * Java 21 JDK or newer
 * [Luckperms](https://luckperms.net/download)
 
-##Permissions
+## Permissions
 1. pugblocker.reload
 
    *Description Allows reloading the PugBlocker configuration.
@@ -117,7 +117,7 @@ PugBlocker - a plugin for Minecraft designed to manage player rights via LuckPer
     *Description Allows the player to attack entities.
     *Default False
 
-##Config.yml
+## Config.yml
 ```
 applyToOps: true
 
