@@ -1,0 +1,7 @@
+applyToOps: true
+
+messages:
+  noPermission: "You do not have permission to execute this command."
+  configReloaded: "PugBlocker config reloaded!"
+
+  chatNoPermission: "You do not have permission to chat."

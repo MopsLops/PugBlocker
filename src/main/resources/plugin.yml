@@ -1,0 +1,73 @@
+name: PugBlocker
+version: '${project.version}'
+main: me.mopslops.pugblocker.PugBlocker
+api-version: '1.21'
+depend: [LuckPerms]
+description: A plugin to restrict player actions with permissions
+author: MopsLops
+commands:
+  reload:
+    description: Reload the PugBlocker plugin configuration
+    usage: /reload pugblocker
+    permission: pugblocker.reload
+permissions:
+  pugblocker.reload:
+    description: Allows reloading the PugBlocker configuration
+    default: op
+  pugblocker:
+    description: Allows all the PugBlocker permissions
+    default: false
+  pugblocker.*:
+    description: Allows all the PugBlocker permissions
+    default: false
+  pugblocker.move:
+    description: Allows the player to move
+    default: false
+  pugblocker.break:
+    description: Allows the player to break blocks
+    default: false
+  pugblocker.place:
+    description: Allows the player to place blocks
+    default: false
+  pugblocker.nearplace:
+    description: Allows the player to build near other blocks
+    default: false
+  pugblocker.chat:
+    description: Allows the player to chat
+    default: false
+  pugblocker.drop:
+    description: Allows the player to drop items
+    default: false
+  pugblocker.pickup:
+    description: Allows the player to pick up items
+    default: false
+  pugblocker.interact:
+    description: Allows the player to interact with blocks/entities
+    default: false
+  pugblocker.inventory.click:
+    description: Allows the player to click in the inventory
+    default: false
+  pugblocker.inventory.drag:
+    description: Allows the player to drag items in the inventory
+    default: false
+  pugblocker.inventory.open:
+    description: Allows the player to open the inventory
+    default: false
+  pugblocker.craft:
+    description: Allows the player to craft items
+    default: false
+  pugblocker.bucket:
+    description: Allows the player to use buckets
+    default: false
+  pugblocker.open:
+    description: Allows the player to open blocks
+    default: false
+  pugblocker.plate:
+    description: Allows the player to step on pressure plates
+    default: false
+  pugblocker.piston:
+    description: Allows the player to use pistons
+    default: false
+  pugblocker.attack:
+    description: Allows the player to attack entities
+    default: false
